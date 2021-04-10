@@ -53,3 +53,11 @@ while funcao != 'exit':
 
     if funcao == 'clear':
         lista_numero.clear();
+
+    if funcao == 'sort':
+
+        lista_numero.sort()
+        for i in lista_numero:
+            print(i, end=' ');
+
+        print();
